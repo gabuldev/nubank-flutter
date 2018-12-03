@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nubank/pages/home_page.dart';
+import 'package:nubank/pages/home/root_page.dart';
 
 void main() => runApp(new MyApp());
 
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         // counter didn't reset back to zero; the application is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: new HomePage(),
+      home: new RootPage(),
     );
   }
 }
